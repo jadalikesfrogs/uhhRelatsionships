@@ -1,7 +1,7 @@
 /*
 The Class structure for person, student and faculty. Staff too */
 
-// #include <iostream>
+#include <iostream>
 #include <string>
 #include <vector>
 using namespace std;
@@ -91,4 +91,14 @@ string Person::getSNumber() {
 
 void Person::setSNumber(const string& newSNumber) {
 	sNumber = newSNumber;
+}
+
+///////////////////////////////////////////////////////////////////////// MAIN GOES HERE ??????????? I THINK LMAO 
+
+int main() {
+	Student s1("Jimmy");
+	cout << s1.getName() << " " << s1.getSNumber() << endl;
+	s1.setGPA(3.46); // jimmy is sooooo smart v smart wow
+	cout << s1.getGPA() << endl;
+
 }
