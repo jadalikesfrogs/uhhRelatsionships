@@ -4,6 +4,7 @@ The Class structure for person, student and faculty. Staff too */
 #include <iostream>
 #include <string>
 #include <vector>
+#include "Person.h"
 using namespace std;
 
 

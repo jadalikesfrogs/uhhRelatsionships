@@ -1,4 +1,5 @@
 #pragma once
+// class interface
 #include <string>
 using std::string;
 

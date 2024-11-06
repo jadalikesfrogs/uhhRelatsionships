@@ -1,7 +1,7 @@
 
 #include "Person.h"
 
-
+// class implementation
 Person::Person(string n) {
 	name = n;
 	// assignSNumber(sSNumber); // function for getting student num todo
