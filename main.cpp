@@ -101,5 +101,12 @@ int main() {
 	s1.setGPA(3.46); // jimmy is sooooo smart v smart wow
 	cout << s1.getGPA() << endl;
 
+	/* if I had a faculty class 
+	Faculty instructor("Bobbert")
+	vector<Person> course;
+	course.push_back(instructor);
+	course.push_back(s1);
+	*/
+
 	return 0;
 }
