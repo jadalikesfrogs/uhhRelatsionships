@@ -95,10 +95,11 @@ void Person::setSNumber(const string& newSNumber) {
 
 ///////////////////////////////////////////////////////////////////////// MAIN GOES HERE ??????????? I THINK LMAO 
 
-int main() {
+int main() { 
 	Student s1("Jimmy");
 	cout << s1.getName() << " " << s1.getSNumber() << endl;
 	s1.setGPA(3.46); // jimmy is sooooo smart v smart wow
 	cout << s1.getGPA() << endl;
 
+	return 0;
 }
