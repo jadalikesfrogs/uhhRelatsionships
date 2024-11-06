@@ -74,3 +74,22 @@ void Student::dropCourse(const string& c) {
 		courseIDS.erase(i);
 	}
 }
+
+Person::Person(string n) {
+
+}
+
+string Person::getName() {
+	
+	
+}
+
+string Person::getSNumber() {
+	
+
+}
+
+void Person::setSNumber(string newSNumber) {
+
+
+}
